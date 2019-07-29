@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Disney ID UI v2 - Example Integration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .usernav li a{margin-top:5px;cursor:pointer}
+        .navbar-fixed-top{z-index:0}
+        .loggedIn{display:none}
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Your Website</a>
+        </div>
+        <div class="navbar-right">
+            <ul class="usernav nav nav-pills" hidden="hidden">
+                <li class="navbar-brand" role="presentation">Welcome, <span class="firstname">Guest</span></li>
+                <li role="presentation" class="loggedOut signin"><a>Sign In</a></li>
+                <li role="presentation" class="loggedOut register"><a>Register</a></li>
+                <li role="presentation" class="loggedIn profile"><a>Profile</a></li>
+                <li role="presentation" class="loggedIn signout"><a>Sign Out</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Welcome</h1>
+        <p>When you wish upon a Disney ipsum... Pixar play parade fairy godmother, pooh's heffalump movie, so this is the miracle that i've been dreaming of footman. I shake hands with you, a sweep is as lucky pirates of the caribbean prince edward roo. Jewels of southeast asia hooter fall apart in my backyard mission space advanced training lab ursula. Disney channel rocks krebbs casey junior, you find the fun and snap sounds like summer concert series.</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Star Wars</h2>
+            <p><a class="btn btn-default loggedIn" href="#" role="button">Watch Now</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Big Hero 6</h2>
+            <p><a class="btn btn-default loggedIn" href="#" role="button">Watch Now</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Cinderella</h2>
+            <p><a class="btn btn-default loggedIn" href="#" role="button">Watch Now</a></p>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>&copy; Disney 2015</p>
+    </footer>
+</div>
+
+<!-- Use this for STAGE -->
+<script type="text/javascript" id="disneyid-script" src="https://stg.cdn.registerdisney.go.com/v2/outer/DisneyID.js"></script>
+
+<!-- Use this for PROD -->
+<!--<script type="text/javascript" id="disneyid-script" src="https://cdn.registerdisney.go.com/v2/outer/DisneyID.js"></script>-->
+<script type="text/javascript">
+    
+    /*------------------------------------------------------*
+     *   Disney ID UIv2 (Lightbox) Integration Sample 
+     * - * - * - * - * - * - * - * - * - * - * - * - *
+     *   For More Info, please ready the documentation @
+     *   https://devcentraldocs.disney.com/pages/releaseview.action?pageId=23658548
+     *------------------------------------------------------*/
+            
+    /**
+     *  1. Configure and get the Disney ID object 
+     */
+    var did = DisneyID.get({
+        // Put your client ID here.  Append the environment to your client id (-STAGE || -PROD)
+        clientId: 'DTSS-DISNEYID.UI.TEST.WEB'
+
+        // site hosted using HTTPS
+        // Responder page is required.
+        ,responderPage: 'didresponder.html'
+        
+        // CSS File to override default lightbox styles (HTTPS Only)
+		// CSS file must be on a publicly accessible https URL
+       // ,cssOverride: 'https://<url to your css file>'
+    });
+    
+    /**
+     *  2. Add event listeners next using the `did.on` method
+     */
+    did.on('login', showUserLoggedIn);
+    did.on('logout', showUserLoggedOut);
+	did.on('error', showError);
+    
+    /**
+     * 3. Initialize (log in will occur if there is a session present)
+     */
+    did.init().then(function (data) {
+		console.log("Event: init");
+        enableButtons();
+        data.loggedIn? showUserLoggedIn(data.guest): showUserLoggedOut();
+    });
+
+    /**
+     * 4. Do stuff (show guest/authenticated specific data, enable buttons)
+     */
+    function enableButtons(){
+        $('.signin').on('click', () => { did.launchLogin() });
+        $('.register').on('click', () => { did.launchRegistration() });
+        $('.profile').on('click', () => { did.launchProfile() });
+        $('.signout').on('click', () =>{ did.logout() });
+    }
+    function showUserLoggedIn(guest){
+		console.log("Event: login");
+        console.log("showUserLoggedIn:"+guest);
+        $(".firstname").text(guest.profile.firstName);
+        $(".loggedOut").hide();
+        $(".loggedIn").show();
+        $(".usernav").show();
+    }
+    function showUserLoggedOut(){
+		console.log("Event: logout");
+        console.log("showUserLoggedOut:");
+        console.log("Logged Out");
+        $(".firstname").text("Guest");
+        $(".loggedIn").hide();
+        $(".loggedOut").show();
+        $(".usernav").show();
+    }
+	function showError(err) {
+	    console.log("Event: error");
+	    console.log("Error:"+JSON.stringify(err,null,4));
+	}
+</script>
+</body>
+</html>
