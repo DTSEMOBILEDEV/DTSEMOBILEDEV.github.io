@@ -35,6 +35,7 @@ body {
     outline: 0;
     padding: 0;
     background: transparent;
+    color: transparent;
     cursor: pointer;
     z-index: 1;
     top: 12px;
