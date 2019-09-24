@@ -1,0 +1,11 @@
+{
+  "name": "guest_profile_io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DTSEMOBILEDEV/DTSEMOBILEDEV.github.io.git",
+  "author": "zaksparo <webmaster.zaksparrow@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "up": "git add . && git commit -m \"[css] upgrade\" && git push origin master"
+  }
+}
