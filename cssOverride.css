@@ -229,7 +229,9 @@ p, ul, ol {
     color: #ca2b81; }
 .field {
     position: relative;
-    margin-bottom: 18px; }
+    margin: 20px;
+    background: #FFF;
+}
 .field-compact {
     display: inline-block; }
 .field-error .name {
