@@ -30,15 +30,15 @@ body {
     min-width: 320px; }
 #close {
     font-size: 0;
-    position: absolute;
+    position: relative;
     border: 0;
     outline: 0;
     padding: 0;
     background: red;
     cursor: pointer;
     z-index: 1;
-    top: 20px;
-    right: 20px; }
+    top: 12px;
+    right: 12px; }
 #close::after {
     content: "\00d7";
     font-size: 3rem;
@@ -47,7 +47,7 @@ body {
     -webkit-transition: color 200ms;
     transition: color 200ms; }
 #close:hover::after {
-    color: red; }
+    color: #a7a7a7; }
 #close:focus::after {
     color: #7d7d7d; }
 .content {
