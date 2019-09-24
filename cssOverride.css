@@ -53,6 +53,7 @@ body {
 .content {
     position: relative;
     overflow: hidden;
+    background: transparent;
 }
 .main {
     position: relative;
