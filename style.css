@@ -44,11 +44,10 @@ div#disneyid-wrapper.state-active {
   width: 100%;
 }
 .logo-primary {
-  background-color: red;
   position: relative;
   height: 170px;
-  /* background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
-  background-size: cover; */
+  background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
+  background-size: cover;
 }
 
 /* sign in page  */
