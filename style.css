@@ -68,6 +68,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-family: "Avenir";
   src: url(https://DTSEMOBILEDEV.github.io/font/AvenirLTStd-Medium.otf) fornat("opentype");
 }
+.btn {
+  font-weight: bolder;
+}
 .btn-primary {
   z-index: 9999999;
   border-radius: 30px 30px 30px 30px !important;
