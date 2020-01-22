@@ -61,3 +61,6 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 }
 /* ----------- END OF ERROR CSS ----------- */
 /* ============================ END OF FIELDS COLORS ============================ */
+.checkbox .name::before {
+  border: 2px solid #2480FF;
+}
