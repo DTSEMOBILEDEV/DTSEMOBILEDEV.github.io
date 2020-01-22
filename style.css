@@ -5,9 +5,9 @@
 .ng-pristine {
   padding: 10px;
 }
-.section:first-child {
+/* .section:first-child {
   margin: 20px;
-}
+} */
 /* .section-profile-information {
   margin: 20px;
 } */
@@ -105,7 +105,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-color: #2480FF;
 }
 .mask{
-  margin-left: 10px;
+  margin: 10px;
 }
 /* pop-in error */
 .banner.message-error .container {
