@@ -2,7 +2,7 @@
   display: none;
 }
 /* global div */
-.ng-pristine {
+.ng-pristine .ng-invalid {
   padding: 10px;
 }
 /* .section:first-child {
@@ -161,7 +161,7 @@ input:not([type="checkbox"]):not([type="radio"]):focus {
 }
 
 .field-error input:not([type="checkbox"]):not([type="radio"]), .field-error input:not([type="checkbox"]):not([type="radio"]):focus, .field-error select, .field-error select:focus {
-  /* padding-right: 32px; */
+  padding-right: 32px;
   border: 1px solid #DD1F00;
 }
   
