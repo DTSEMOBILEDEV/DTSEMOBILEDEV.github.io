@@ -111,9 +111,9 @@ div#disneyid-wrapper.state-active {
   background-size: 1.25rem;
   border-color: #2480FF;
 }
-.field-dob .mask {
+/* .field-dob .mask {
   margin: 20px;
-}
+} */
 /* pop-in error */
 .banner.message-error .container {
   z-index: 9999;
