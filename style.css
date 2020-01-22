@@ -90,7 +90,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: #FFF;
 }
 .message.state-active + .workflow{
-  margin-top: 20px !important;
+  margin-top: 15px !important;
 }
 .field-group {
   margin: 10px;
