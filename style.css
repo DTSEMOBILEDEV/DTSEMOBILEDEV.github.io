@@ -108,7 +108,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .banner.message-error .container {
   z-index: 9999;
   /* position: absolute; */
-  margin-top: -15px;
+  margin-top: 15px;
   background: #FFF2FF;
   border: 1px solid #DD1F00;
   color: #DD1F00;
