@@ -76,14 +76,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .btn-secondary {
   z-index: 9999999;
   border-radius: 30px 30px 30px 30px !important;
-  border-color: linear-gradient(90deg, rgba(50,105,255,1) 0%, rgba(0,181,255,1) 100%) !important;
+  border-color:  rgba(50,105,255,1) !important;
   border-width: 2px;
-}
-a.ng-isolate-scope {
-  color: #1E87F0;
-  position: relative;
-  justify-content: center;
-  align-items: center;
 }
 /* create account  */
 .workflow {
@@ -93,7 +87,7 @@ a.ng-isolate-scope {
   background-color: #FFF;
 }
 .field-group {
-  margin: 10px;
+  /* margin: 10px; */
   padding-bottom: 10px;
 }
 /* checkbox */
