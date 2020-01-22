@@ -12,9 +12,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .ng-pristine {
   padding: 10px;
 }
-/* .section:first-child {
-  margin: 20px;
-} */
+.section {
+  margin: 20px !important;
+}
 /* .section-profile-information {
   margin: 20px;
 } */
