@@ -5,7 +5,7 @@
 .ng-pristine {
   padding: 10px;
 }
-.section-primary {
+.section:first-child {
   margin: 10px;
 }
 /* .section-profile-information {
