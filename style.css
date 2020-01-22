@@ -124,9 +124,9 @@ div#disneyid-wrapper.state-active {
   color: #DD1F00;
   border-radius: 15px 15px 15px 15px;
 }
-.container {
+/* .container {
   /* padding: 0px; */
-}
+} */
 
 /* password box */
 .meter-bar .step:first-child {
