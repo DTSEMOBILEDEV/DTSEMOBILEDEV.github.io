@@ -104,6 +104,10 @@ div#disneyid-wrapper.state-active {
   /* padding-bottom: 20px; */
 
 /* checkbox */
+.checkbox{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .checkbox input[type="checkbox"]:checked+.name::before {
   -webkit-transition: background-color 70ms;
   transition: background-color 70ms;
