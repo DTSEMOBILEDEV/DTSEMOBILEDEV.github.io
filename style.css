@@ -2,7 +2,10 @@
   display: none;
 }
 /* global div */
-.ng-pristine .ng-invalid {
+.ng-pristine {
+  padding: 10px;
+}
+.ng-invalid {
   padding: 10px;
 }
 /* .section:first-child {
