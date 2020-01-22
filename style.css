@@ -9,9 +9,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* global div */
-/* .ng-pristine {
-  padding: 10px;
-} */
+.ng-pristine {
+  margin: 15px !important;
+}
 .section {
   margin: 15px !important;
   margin-bottom: 15px !important;
