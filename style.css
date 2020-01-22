@@ -9,11 +9,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* global div */
-.ng-pristine {
+/* .ng-pristine {
   padding: 10px;
-}
+} */
 .section {
-  margin: 20px !important;
+  padding: 20px !important;
 }
 /* .section-profile-information {
   margin: 20px;
