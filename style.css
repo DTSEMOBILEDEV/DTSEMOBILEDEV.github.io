@@ -121,8 +121,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: red;
     position: relative;
     height: 170px;
-    background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
-    background-size: cover;
+    /*background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
+    background-size: cover;*/
   }
   
   /* sign in page  */
