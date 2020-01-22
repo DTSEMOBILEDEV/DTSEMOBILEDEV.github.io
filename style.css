@@ -104,7 +104,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-size: 1.25rem;
   border-color: #2480FF;
 }
-.mask{
+.field-dob .mask {
   margin: 10px;
 }
 /* pop-in error */
