@@ -171,9 +171,11 @@ input:not([type="checkbox"]):not([type="radio"]):focus {
 .field-error input:not([type="checkbox"]):not([type="radio"]).placeholder, .field-error select.placeholder {
   color: #DD1F00;
 }
-input:not([type="checkbox"]):not([type="radio"]).placeholder {
+input:not([type="checkbox"]):not([type="radio"]):focus, select:focus, .toggle .name:focus {
   border: 1px solid #0046E4;
 }
+
+
 .message-error {
   color: #DD1F00;
 }
