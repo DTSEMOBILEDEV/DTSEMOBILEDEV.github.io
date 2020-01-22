@@ -167,6 +167,9 @@ input:not([type="checkbox"]):not([type="radio"]):focus {
   padding-right: 32px;
   border: 1px solid #DD1F00;
 }
+.field-error input:not([type="checkbox"]):not([type="radio"]).placeholder, .field-error select.placeholder {
+  color: #DD1F00;
+}
   
 .message-error {
   color: #DD1F00;
