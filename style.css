@@ -18,7 +18,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* .section-profile-information {
   margin: 20px;
 } */
-
+.ng-isolate-scope {
+  margin: 10px;
+}
 h2.title.title-primary.ng-isolate-scope {
   margin-top: 10px;
 }
