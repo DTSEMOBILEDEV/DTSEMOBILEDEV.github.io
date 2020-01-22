@@ -99,10 +99,10 @@ div#disneyid-wrapper.state-active {
 .message.state-active + .workflow{
   margin-top: 10px !important;
 }
-.field-group {
-  margin: 10px;
+/* .field-group {
+  /* margin: 10px; */
   /* padding-bottom: 20px; */
-}
+
 /* checkbox */
 .checkbox input[type="checkbox"]:checked+.name::before {
   -webkit-transition: background-color 70ms;
