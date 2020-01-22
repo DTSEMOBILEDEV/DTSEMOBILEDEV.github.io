@@ -1,0 +1,109 @@
+*,
+:after,
+:before {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+abbr,
+acronym,
+address,
+article,
+aside,
+blockquote,
+body,
+caption,
+code,
+dd,
+del,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+iframe,
+img,
+label,
+legend,
+li,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+section,
+span,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: bottom;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+body {
+  position: relative;
+  min-width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
+  font: 14px/1.3 Avenir, Helvetica, Arial, sans-serif;
+  color: #253b56;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+}
+
+body:after {
+  content: "mobile";
+  display: none;
+}
+
+html {
+	box-sizing: border-box;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
