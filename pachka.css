@@ -63,13 +63,13 @@ h2.title.title-primary.ng-scope {
 .header {
   /* height: 100%; */
   margin: 0;
-  margin-bottom: -15px;
+  margin-bottom: -20px;
   width: 100vw;
-  height: 25vh;
+  height: 30vh;
 }
 .logo-primary {
   position: relative;
-  height: 25vh;
+  height: 30vh;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: cover;
 }
