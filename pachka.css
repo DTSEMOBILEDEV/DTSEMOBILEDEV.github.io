@@ -19,6 +19,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 div.btn-group {
   padding-bottom: 10px;
 }
+.workflow {
+  border-radius: 20px;
+  box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
+  background-color: #FFF;
+}
+.workflow-new{
+  margin: 10px;
+}
+div.block.block-update-text {
+  margin: 10px;
+}
 /* .section-profile-information {
   margin: 15px;
 } */
@@ -92,15 +103,6 @@ h2.title.title-primary.ng-scope {
   border-color:  rgba(0,181,255,1) !important;
   border-width: 2px;
 }
-/* create account  */
-.workflow {
-  border-radius: 20px;
-  box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
-  background-color: #FFF;
-}
-/* .workflow-new{
-  margin: 10px;
-} */
 .message.state-active + .workflow{
   margin-top: 15px !important;
 }
