@@ -179,6 +179,7 @@ div.block.block-need-help-signing-in.block-help-link {
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
 input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
+  color: transparent;
 }
 
 
@@ -195,7 +196,7 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 /* BEGIN OF placeholder => 1st for normal error fields, 2nd for country error */
 .field-error input:not([type='checkbox']):not([type='radio'])::placeholder {
   text-decoration-color: #DD1F00;
-  color: #DD1F00;
+  color: transparent;
 }
 
 .field-error input:not([type='checkbox']):not([type='radio']).placeholder, .field-error select.placeholder {
