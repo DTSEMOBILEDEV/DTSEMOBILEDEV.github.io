@@ -23,12 +23,11 @@ div.btn-group {
   border-radius: 20px;
   box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
   background-color: #FFF;
-  margin: 10px;
 }
 .workflow-new{
   margin: 10px;
 }
-section.workflow.workflow-recover-email-sent {
+.section.workflow.workflow-recover-email-sent {
   margin: 10px;
 }
 div.block.block-update-text {
