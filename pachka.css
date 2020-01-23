@@ -137,14 +137,14 @@ div#disneyid-wrapper.state-active {
 
 
 /* password box */
-/* .meter-bar .step:first-child {
+.meter-bar .step:first-child {
   border-top-left-radius: 12px !important;
   border-bottom-left-radius: 12px !important;
 }
 .meter-bar .step:last-child {
   border-top-right-radius: 12px !important;
   border-bottom-right-radius:  12px !important;
-} */
+}
 
 .name {
   display: block;
