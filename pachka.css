@@ -60,18 +60,18 @@ h2.title.title-primary.ng-scope {
   display: none !important;
 } */
 /* header */
-/* div.content.ng-scope {
-  width: 90vw;
+div.content.ng-scope {
+  height: 120vh;
 }
 body.ng-strict-di {
-  width: 90vw;
-} */
+  height: 120vh;
+}
 .header.ng-scope {
   /* height: 100%; */
   margin: 0;
   margin-bottom: -25px;
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
 }
 .logo-primary {
   position: relative;
