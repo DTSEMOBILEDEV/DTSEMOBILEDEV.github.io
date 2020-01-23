@@ -69,7 +69,7 @@ body.ng-strict-di {
 .header.ng-scope {
   /* height: 100%; */
   margin: 0;
-  margin-bottom: -25px;
+  margin-bottom: -30px;
   width: 100vw;
   height: 170px;
 }
