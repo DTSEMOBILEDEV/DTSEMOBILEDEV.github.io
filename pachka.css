@@ -182,6 +182,7 @@ input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
 }
 
 input:not([type='checkbox']):not([type='radio'])::placeholder {
+  text-decoration-color: transparent;
   color: transparent;
 }
 
@@ -198,12 +199,12 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 
 /* BEGIN OF placeholder => 1st for normal error fields, 2nd for country error */
 .field-error input:not([type='checkbox']):not([type='radio'])::placeholder {
-  text-decoration-color: #DD1F00;
+  text-decoration-color: transparent;
   color: transparent;
 }
 
 .field-error input:not([type='checkbox']):not([type='radio']).placeholder, .field-error select.placeholder {
-  text-decoration-color: #DD1F00;
+  text-decoration-color: transparent;
   color: transparent;
 }
 /* END OF PLACEHOLDER */
