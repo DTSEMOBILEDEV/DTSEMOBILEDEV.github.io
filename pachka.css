@@ -54,6 +54,7 @@ div#disneyid-wrapper.state-active {
   margin: 0;
   margin-bottom: -15px;
   width: 100vw;
+  height: 20vh;
 }
 .logo-primary {
   position: relative;
