@@ -60,12 +60,12 @@ h2.title.title-primary.ng-scope {
   display: none !important;
 } */
 /* header */
-div.content.ng-scope {
-  width: 100vw;
+/* div.content.ng-scope {
+  width: 90vw;
 }
 body.ng-strict-di {
-  width: 100vw;
-}
+  width: 90vw;
+} */
 .header.ng-scope {
   /* height: 100%; */
   margin: 0;
