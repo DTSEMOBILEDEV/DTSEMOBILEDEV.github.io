@@ -2,6 +2,11 @@ h2.title.title-primary.ng-scope {
   color: #253B56;
 }
 
+a {
+  color: #0046E4;
+  text-align: center;
+}
+
 .title {
   color: #253B56;
   text-transform: uppercase;
