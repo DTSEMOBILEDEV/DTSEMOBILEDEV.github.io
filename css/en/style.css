@@ -110,7 +110,7 @@
     z-index: 9999999;
     border-radius: 30px 30px 30px 30px !important;
     border-color:  rgba(0,181,255,1) !important;
-    border-width: 2px;
+    border-width: 1px;
   }
   .message.state-active + .workflow{
     margin-top: 15px !important;
