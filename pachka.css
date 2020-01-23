@@ -45,9 +45,9 @@ div#disneyid-wrapper::after {
   opacity: 1 !important ;
   z-index: 9999999 !important;
 }
-div#disneyid-wrapper.state-active {
+/* div#disneyid-wrapper.state-active {
   display: none !important;
-}
+} */
 /* header */
 .header {
   /* height: 100%; */
