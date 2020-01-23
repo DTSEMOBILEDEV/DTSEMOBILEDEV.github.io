@@ -4,8 +4,11 @@ h2.title.title-primary.ng-scope {
 
 a {
   color: #0046E4;
-  text-align: center;
   font-size: 11.5px;
+}
+
+div.block-help-link {
+  text-align: center;
 }
 
 .title {
