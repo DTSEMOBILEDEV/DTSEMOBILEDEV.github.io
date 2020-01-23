@@ -70,11 +70,11 @@ body.ng-strict-di {
   /* height: 100%; */
   margin: 0;
   margin-bottom: -25px;
-  width: 90vw;
+  width: 100vw;
 }
 .logo-primary {
   position: relative;
-  height: 170px;
+  height: auto;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: cover;
 }
