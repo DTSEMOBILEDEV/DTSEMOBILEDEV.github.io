@@ -179,6 +179,9 @@ div.block.block-need-help-signing-in.block-help-link {
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
 input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
+}
+
+input:not([type='checkbox']):not([type='radio'])::placeholder {
   color: transparent;
 }
 
