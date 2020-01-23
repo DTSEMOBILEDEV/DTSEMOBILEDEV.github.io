@@ -30,9 +30,8 @@ div.btn-group {
 div.block.block-update-text {
   margin: 10px;
 }
-button {
+button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
-  color: red;
 }
 /* .section-profile-information {
   margin: 15px;
