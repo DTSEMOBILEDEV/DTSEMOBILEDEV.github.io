@@ -54,7 +54,7 @@ div#disneyid-wrapper.state-active {
 /* header */
 .header {
   /* height: 100%; */
-  margin: -10px;
+  margin: -20px;
   width: 100%;
 }
 .logo-primary {
@@ -129,7 +129,6 @@ div#disneyid-wrapper.state-active {
 .banner.message-error .container {
   z-index: 9999;
   /* position: absolute; */
-  margin-top: 15px;
   background: #FFF2FF;
   border: 1px solid #DD1F00;
   color: #DD1F00;
