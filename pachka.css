@@ -70,12 +70,12 @@ body.ng-strict-di {
   /* height: 100%; */
   margin: 0;
   margin-bottom: -25px;
-  width: 110vw;
-  /* height: 25vh; */
+  width: 100vw;
+  height: 20vh;
 }
 .logo-primary {
   position: relative;
-  height: 25vh;
+  height: 100%;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: contain;
 }
