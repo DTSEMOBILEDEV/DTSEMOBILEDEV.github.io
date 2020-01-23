@@ -74,9 +74,9 @@ body.ng-strict-di {
 }
 .logo-primary {
   position: relative;
-  height: auto;
+  height: 170px;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 /* sign in page  */
