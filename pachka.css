@@ -60,16 +60,16 @@ h2.title.title-primary.ng-scope {
   display: none !important;
 } */
 /* header */
-.header {
+.header.ng-scope {
   /* height: 100%; */
   margin: 0;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
   width: 100vw;
-  height: 30vh;
+  height: 25vh;
 }
 .logo-primary {
   position: relative;
-  height: 30vh;
+  height: 25vh;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: cover;
 }
