@@ -70,7 +70,8 @@ body.ng-strict-di {
   /* height: 100%; */
   margin: 0;
   margin-bottom: -25px;
-  width: 100vw;
+  width: 110vw;
+  /* height: 25vh; */
 }
 .logo-primary {
   position: relative;
