@@ -54,13 +54,12 @@ div#disneyid-wrapper.state-active {
 /* header */
 .header {
   /* height: 100%; */
-  margin: 0;
   margin-bottom: -20px;
   width: 100%;
 }
 .logo-primary {
   position: relative;
-  height: 20vh;
+  height: 175px;
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: cover;
 }
