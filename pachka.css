@@ -52,7 +52,7 @@ div#disneyid-wrapper.state-active {
 .header {
   /* height: 100%; */
   margin: 0;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
   width: 100vw;
 }
 .logo-primary {
@@ -93,7 +93,6 @@ div#disneyid-wrapper.state-active {
 }
 /* create account  */
 .workflow {
-  margin-top: -10px;
   border-radius: 20px;
   box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
   background-color: #FFF;
