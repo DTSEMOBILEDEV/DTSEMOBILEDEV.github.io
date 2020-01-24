@@ -124,10 +124,10 @@ body.ng-strict-di {
 .message.state-active + .workflow{
   margin-top: 15px !important;
 }
-/* .field-group {
-  /* margin: 10px; */
-  /* padding-bottom: 20px; */
-
+.field-group {
+  margin: 10px;
+   padding-bottom: 20px;
+}
 /* checkbox */
 .checkbox{
   margin-left: 10px;
