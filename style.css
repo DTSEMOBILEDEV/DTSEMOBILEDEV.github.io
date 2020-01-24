@@ -231,6 +231,6 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 2px solid #2480FF;
 }
 
-input:not([type='checkbox']):not([type='radio']), select, .toggle .name, .toggle label .name {
-  margin: 10px !important;
+.ng-pristine .ng-valid {
+  padding: 10px !important;
 }
