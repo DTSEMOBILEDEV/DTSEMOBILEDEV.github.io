@@ -110,6 +110,9 @@ body.ng-strict-di {
 .btn {
   font-weight: bolder;
 }
+.btn-group {
+  margin: 10px;
+}
 .btn-primary {
   z-index: 9999999;
   border-radius: 30px 30px 30px 30px !important;
