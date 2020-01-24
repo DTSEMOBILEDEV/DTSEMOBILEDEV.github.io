@@ -232,5 +232,5 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 }
 
 input:not([type='checkbox']):not([type='radio']), select, .toggle .name, .toggle label .name {
-  padding: 10px;
+  margin: 10px !important;
 }
