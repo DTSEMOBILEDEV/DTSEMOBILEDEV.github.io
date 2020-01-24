@@ -99,7 +99,7 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
 .message.state-active + .workflow{
   margin-top: 10px !important;
 }
-.field-group {
+div.field-group {
   margin: 10px 10px 0px 10px;
 }
 /* checkbox */
