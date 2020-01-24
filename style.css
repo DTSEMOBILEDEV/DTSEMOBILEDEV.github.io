@@ -231,6 +231,6 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 2px solid #2480FF;
 }
 
-.ng-pristine .ng-valid {
+form.ng-pristine .ng-valid {
   padding: 10px !important;
 }
