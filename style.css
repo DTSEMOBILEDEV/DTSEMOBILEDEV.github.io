@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* global div */
 
 .section {
-  margin: 15px !important;
+  margin: 20px !important;
 }
 .section-submit {
   padding-bottom: 10px;
@@ -19,9 +19,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .section-primary {
   margin: 20px;
 }
+
+
+/* padding global button */
 div.btn-group {
   padding-bottom: 10px;
 }
+
+
 .workflow {
   border-radius: 20px;
   box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
