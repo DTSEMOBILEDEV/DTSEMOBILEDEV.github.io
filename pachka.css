@@ -172,6 +172,12 @@ a {
   font-weight: bolder;
 }
 
+a.ng-isolate-scope {
+  color: #1E87FF;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
 div.block.block-need-help-signing-in.block-help-link {
   text-align: center;
 }
