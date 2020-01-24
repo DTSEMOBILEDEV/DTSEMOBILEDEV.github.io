@@ -100,8 +100,7 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   margin-top: 10px !important;
 }
 .field-group {
-  margin: 10px;
-  margin-bottom: 10px;
+  margin: 10px 10px 0px 10px;
 }
 /* checkbox */
 .checkbox{
