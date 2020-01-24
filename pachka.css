@@ -75,7 +75,7 @@ body.ng-strict-di {
 .header.ng-scope {
   /* height: 100%; */
   margin: 0;
-  margin-bottom: -30px;
+  margin-bottom: -35px;
   width: 100vw;
   height: 170px;
 }
@@ -97,7 +97,7 @@ body.ng-strict-di {
   font-size: 11.5px;
   letter-spacing: 1px;
   padding-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 /* button */
@@ -112,7 +112,7 @@ body.ng-strict-di {
 .btn-secondary {
   z-index: 9999999;
   border-radius: 30px 30px 30px 30px !important;
-  border-color:  rgba(0,181,255,1) !important;
+  border-color: rgba(0,181,255,1) !important;
   border-width: 2px;
 }
 .message.state-active + .workflow{
@@ -172,8 +172,15 @@ a {
   font-weight: bolder;
 }
 
+a.ng-isolate-scope {
+  color: #1E87FF;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
 div.block.block-need-help-signing-in.block-help-link {
   text-align: center;
+  margin-top: -15px;
 }
 
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
