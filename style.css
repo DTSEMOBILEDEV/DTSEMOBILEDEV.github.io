@@ -33,6 +33,9 @@ div.btn-group {
 .workflow-legal-country {
   padding: 10px;
 }
+.workflow-update-address .workflow-edit{
+  padding: 10px;
+}
 div.block.block-update-text {
   margin: 10px;
 }
