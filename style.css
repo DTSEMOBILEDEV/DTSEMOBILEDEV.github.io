@@ -50,42 +50,11 @@ div.block.block-update-text {
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
-/* .section-profile-information {
-  margin: 15px;
-} */
-
-/* h2.title.title-primary.ng-isolate-scope {
-  margin-top: 10px;
-}
-
-h2.title.title-primary.ng-scope {
-  margin-top: 10px;
-} */
-
-/* .ng-scope {
-  /* margin-top: 10px; */
-/* }  */
 
 #disneyid-wrapper {
   border: 1px solid red;
 }
 
-/* div#disneyid-wrapper::after {
-  position: 0;
-  display: block !important;
-  opacity: 1 !important ;
-  z-index: 9999999 !important;
-} */
-/* div#disneyid-wrapper.state-active {
-  display: none !important;
-} */
-/* header */
-/* div.content.ng-scope {
-  height: 140vh;
-}
-body.ng-strict-di {
-  height: 140vh;
-} */
 .header.ng-scope {
   /* height: 100%; */
   margin: 0;
@@ -99,11 +68,6 @@ body.ng-strict-di {
   background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
   background-size: 100% 100%;
 }
-
-/* sign in page  */
-/* .main {
-  padding-top: -45px;
-} */
 
 .title {
   color: #253B56;
@@ -137,6 +101,7 @@ body.ng-strict-di {
 }
 .field-group {
   margin: 10px;
+  margin-bottom: 10px;
 }
 /* checkbox */
 .checkbox{
@@ -150,9 +115,7 @@ body.ng-strict-di {
   background-size: 1.25rem;
   border-color: #2480FF;
 }
-/* .field-dob .mask {
-  margin: 20px;
-} */
+
 /* pop-in error */
 .banner.message-error .container {
   z-index: 9999;
@@ -162,9 +125,6 @@ body.ng-strict-di {
   color: #DD1F00;
   border-radius: 15px 15px 15px 15px;
 }
-/* .container {
-  /* padding: 0px; */
-
 
 /* password box */
 .meter-bar .step:first-child {
