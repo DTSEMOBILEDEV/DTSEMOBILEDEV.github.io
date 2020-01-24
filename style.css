@@ -128,7 +128,7 @@ body.ng-strict-di {
   border-width: 2px;
 }
 .message.state-active + .workflow{
-  margin-top: 18px !important;
+  margin-top: 10px !important;
 }
 .field-group {
   margin: 10px;
