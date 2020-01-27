@@ -53,6 +53,9 @@ div.block.block-update-text {
 div.field-group {
   padding-bottom: 10px;
 }
+div.block.block-update-text-top {
+  padding: 10px;
+}
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
