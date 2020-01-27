@@ -47,6 +47,9 @@ div.btn-group {
 div.block.block-update-text {
   margin: 10px;
 }
+workflow-login-security-lockout {
+  margin: 10px;
+}
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
