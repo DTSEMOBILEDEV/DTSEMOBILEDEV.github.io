@@ -44,8 +44,20 @@ div.btn-group {
 .workflow-update-address {
   padding: 10px;
 }
+.workflow-login-security-lockout {
+  padding: 10px;
+}
 div.block.block-update-text {
   margin: 10px;
+}
+div.field-group {
+  padding-bottom: 10px;
+}
+div.block.block-update-text-top {
+  padding: 10px;
+}
+div.block.block-gating-message {
+  padding: 10px;
 }
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
