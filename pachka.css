@@ -27,6 +27,9 @@ div.btn-group {
 .workflow-new{
   margin: 10px;
 }
+.field-username-email {
+  padding-bottom: -10px;
+}
 .workflow-recover-email-sent {
   padding: 10px;
 }
