@@ -138,8 +138,8 @@ div.field-group {
 }
 
 /* pop-in error */
-.banner.message-error .container {
-  z-index: 9999;
+.banner.message-error.container {
+  /* z-index: 9999; */
   /* position: absolute; */
   background: #FFF2FF;
   border: 1px solid #DD1F00;
