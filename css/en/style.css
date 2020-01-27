@@ -112,7 +112,7 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
 .btn-secondary {
   z-index: 9999999;
   border-radius: 30px 30px 30px 30px !important;
-  border-color: rgba(0,181,255,1) !important;
+  border-color: rgba(50,105,255,1) !important;
   border-width: 1.5px;
 }
 .btn.btn-secondary.ng-isolate-scope{
