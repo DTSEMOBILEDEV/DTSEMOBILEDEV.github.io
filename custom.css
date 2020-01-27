@@ -134,7 +134,7 @@
     background: #FFF2FF;
     border: 1px solid #DD1F00;
     color: #DD1F00;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px !important;
   }
   
   /* password box */
