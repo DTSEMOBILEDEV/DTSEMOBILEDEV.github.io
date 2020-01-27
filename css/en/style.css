@@ -1,4 +1,4 @@
-@import url(https://dtsemobiledev.github.io/custom.css);
+@import url("https://dtsemobiledev.github.io/custom.css") screen;
 
 .logo-primary {
   background-image: url(https://DTSEMOBILEDEV.github.io/css/en/images/header-ID.png) !important;
