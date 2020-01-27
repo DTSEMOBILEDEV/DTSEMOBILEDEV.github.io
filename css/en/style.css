@@ -1,3 +1,10 @@
+
+.logo-primary {
+  position: relative;
+  height: 100%;
+  background-image: url(https://DTSEMOBILEDEV.github.io/css/en/images/header-ID.png);
+  background-size: 100% 100%;
+}
 #close {
   display: none;
 }
@@ -63,6 +70,11 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
 
+button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
+  font-weight: bolder;
+  color: #253B56;
+}
+
 #disneyid-wrapper {
   border: 1px solid red;
 }
@@ -74,12 +86,7 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   width: 100vw;
   height: 170px;
 }
-.logo-primary {
-  position: relative;
-  height: 100%;
-  background-image: url(https://DTSEMOBILEDEV.github.io/css/en/images/header-ID.png);
-  background-size: 100% 100%;
-}
+
 
 .title {
   color: #253B56;
@@ -108,10 +115,6 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   border-color: rgba(0,181,255,1) !important;
   border-width: 1.5px;
 }
-button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
-  font-weight: bolder;
-  color: #253B56;
-}
 .message.state-active + .workflow{
   margin-top: 10px !important;
 }
@@ -138,7 +141,7 @@ div.field-group {
   background: #FFF2FF;
   border: 1px solid #DD1F00;
   color: #DD1F00;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px !important;
 }
 
 /* password box */
