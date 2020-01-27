@@ -60,9 +60,6 @@ div.block.block-gating-message {
   padding: 10px;
 }
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
-  display: none;
-}
-button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
 
