@@ -79,12 +79,7 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   width: 100vw;
   height: 170px;
 }
-.logo-primary {
-  position: relative;
-  height: 100%;
-  background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
-  background-size: 100% 100%;
-}
+
 
 .title {
   color: #253B56;
