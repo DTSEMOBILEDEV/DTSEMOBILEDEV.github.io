@@ -63,6 +63,11 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
 
+button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
+  font-weight: bolder;
+  color: #253B56;
+}
+
 #disneyid-wrapper {
   border: 1px solid red;
 }
