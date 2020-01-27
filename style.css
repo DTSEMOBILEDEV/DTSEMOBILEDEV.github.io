@@ -56,6 +56,9 @@ div.field-group {
 div.block.block-update-text-top {
   padding: 10px;
 }
+div.block.block-gating-message {
+  padding: 10px;
+}
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
 }
