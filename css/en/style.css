@@ -115,6 +115,9 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   border-color: rgba(0,181,255,1) !important;
   border-width: 1.5px;
 }
+.btn.btn-secondary.ng-isolate-scope{
+  color: #253B56;
+}
 .message.state-active + .workflow{
   margin-top: 10px !important;
 }
