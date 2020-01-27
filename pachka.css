@@ -30,6 +30,9 @@ div.btn-group {
 .workflow-recover-email-sent {
   padding: 10px;
 }
+.workflow-login-security-lockout {
+  margin: 10px;
+}
 div.block.block-update-text {
   margin: 10px;
 }
