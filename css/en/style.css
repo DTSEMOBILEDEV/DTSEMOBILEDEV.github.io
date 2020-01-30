@@ -19,6 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 section {
   margin: 15px !important;
+  background-color: aqua;
 }
 .section-submit {
   padding-bottom: 10px;
@@ -59,6 +60,7 @@ div.btn-group {
 } */
 div.field-group.ng-isolate-scope {
   margin: 0px;
+  background-color: 'green';
 }
 div.block.block-update-text {
   margin: 10px;
