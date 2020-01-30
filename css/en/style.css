@@ -54,6 +54,9 @@ div.btn-group {
 .workflow-login-security-lockout {
   padding: 10px;
 }
+form.ng-pristine {
+  margin: 10px;
+}
 div.block.block-update-text {
   margin: 10px;
 }
