@@ -57,9 +57,9 @@ div.btn-group {
 /* form.ng-pristine {
   margin: 15px;
 } */
-/* div.field-group {
-  margin: 25px 25px 0px 25px;
-} */
+div.field-group.ng-isolate-scope {
+  margin: 0px;
+}
 div.block.block-update-text {
   margin: 10px;
 }
