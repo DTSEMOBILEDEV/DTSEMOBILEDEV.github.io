@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* global div */
 
 section {
-  margin: 0px !important;
+  margin: 20px !important;
   background-color: aqua;
 }
 .section-submit {
@@ -55,10 +55,10 @@ div.btn-group {
 .workflow-login-security-lockout {
   padding: 10px;
 }
-form.ng-pristine {
+/* form.ng-pristine {
   margin: 15px !important;
   background-color: palevioletred;
-}
+} */
 div.field-group.ng-isolate-scope {
   margin: 0px;
   background-color:blue;
