@@ -58,7 +58,7 @@ div.block.block-update-text {
   margin: 10px;
 }
 div.field-group {
-  padding-bottom: 10px;
+  padding-bottom: -10px;
 }
 div.block.block-update-text-top {
   padding: 10px;
