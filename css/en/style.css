@@ -17,9 +17,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* global div */
 
-.section {
+/* .section {
   margin: 25px !important;
-}
+} */
 .section-submit {
   padding-bottom: 10px;
 }
@@ -54,9 +54,9 @@ div.btn-group {
 .workflow-login-security-lockout {
   padding: 10px;
 }
-form.ng-pristine {
+/* form.ng-pristine {
   margin: 15px;
-}
+} */
 div.field-group {
   margin: 25px 25px 0px 25px;
 }
