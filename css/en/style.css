@@ -124,9 +124,9 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
 .message.state-active + .workflow{
   margin-top: 10px !important;
 }
-div.field-group {
+/* div.field-group {
   margin: 25px 25px 0px 25px;
-}
+} */
 /* checkbox */
 .checkbox{
   margin-left: 10px;
