@@ -186,7 +186,9 @@ div.block.block-need-help-signing-in.block-help-link {
   text-align: center;
   margin-top: -15px;
 }
-
+select.ng-pristine.ng-valid.ng-touched {
+  padding-right : -20px !important;
+}
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
 input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
