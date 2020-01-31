@@ -123,7 +123,7 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   color: #253B56;
 }
 .btn-delete {
-  color: #DD1F00;
+  color: #DD1F00 !important;
 }
 .message.state-active + .workflow{
   margin-top: 10px !important;
