@@ -192,11 +192,18 @@ input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
 }
 
+input:not([type='checkbox']):not([type='radio'])::placeholder {
+  text-decoration-color: transparent;
+  color: transparent;
+}
 input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder, .toggle .name.placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
-
+input:not([type="checkbox"]):not([type="radio"]), select, .value, .toggle .name {
+  text-decoration-color: transparent;
+  color: transparent;
+}
 
 input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 1px solid #0046E4;
