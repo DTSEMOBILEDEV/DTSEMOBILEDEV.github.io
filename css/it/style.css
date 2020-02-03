@@ -192,7 +192,7 @@ input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
 }
 
-input:not([type="checkbox"]):not([type="radio"])::placeholder, select, .value, .toggle .name {
+input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder, .toggle .name.placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
