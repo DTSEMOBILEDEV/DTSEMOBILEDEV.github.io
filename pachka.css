@@ -246,10 +246,22 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   font-weight: 100;
 }
 
+.checkbox {
+  margin-left: 20px;
+}
+
 .block.show-password-action.ng-scope {
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 .section.section-address.ng-scope.ng-isolate-scope {
   margin-left: -0px !important;
+}
+
+p.legal.ng-scope.ng-isolate-scope {
+  margin-left: 15px !important;
+}
+
+p.ng-scope.ng-isolate-scope {
+  margin-left: 15px !important;
 }
