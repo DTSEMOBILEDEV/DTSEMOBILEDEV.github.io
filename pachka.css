@@ -259,9 +259,9 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 }
 
 p.legal.ng-scope.ng-isolate-scope {
-  margin-left: 15px !important;
+  margin-left: 13px !important;
 }
 
 p.ng-scope.ng-isolate-scope {
-  margin-left: 15px !important;
+  margin-left: 13px !important;
 }
