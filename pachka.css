@@ -242,6 +242,10 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 2px solid #2480FF;
 }
 
+.checkbox .name {
+  font-weight: 100;
+}
+
 .block.show-password-action.ng-scope {
   margin-left: -10px;
 }
