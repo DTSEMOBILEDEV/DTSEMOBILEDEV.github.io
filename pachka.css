@@ -247,11 +247,11 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 }
 
 .checkbox {
-  margin-left: 22px;
+  margin-left: 25px;
 }
 
 .block.show-password-action.ng-scope {
-  margin-left: -22px;
+  margin-left: -25px;
 }
 
 .section.section-address.ng-scope.ng-isolate-scope {
