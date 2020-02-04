@@ -200,10 +200,6 @@ input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder
   text-decoration-color: transparent;
   color: transparent;
 }
-input:not([type="checkbox"]):not([type="radio"]), select, .value, .toggle .name {
-  text-decoration-color: transparent;
-  color: transparent;
-}
 
 input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 1px solid #0046E4;
@@ -241,4 +237,26 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 .checkbox .name::before {
   border: 2px solid #2480FF;
 }
+.checkbox .name {
+  font-weight: 100;
+}
 
+.checkbox {
+  margin-left: 25px;
+}
+
+.block.show-password-action.ng-scope {
+  margin-left: -25px;
+}
+
+.section.section-address.ng-scope.ng-isolate-scope {
+  margin-left: -0px !important;
+}
+
+p.legal.ng-scope.ng-isolate-scope {
+  margin-left: 10px !important;
+}
+
+p.ng-scope.ng-isolate-scope {
+  margin-left: 10px !important;
+}
