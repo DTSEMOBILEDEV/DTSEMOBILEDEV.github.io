@@ -130,6 +130,7 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
 }
 div.field-group {
   margin: 10px 10px 0px 10px;
+  margin-bottom: -30px;
 }
 /* checkbox */
 .checkbox{
@@ -257,6 +258,7 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 
 p.legal.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
+  margin-top: 10px;
 }
 
 p.ng-scope.ng-isolate-scope {
