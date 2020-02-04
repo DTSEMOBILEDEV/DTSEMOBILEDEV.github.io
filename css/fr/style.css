@@ -126,7 +126,7 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   color: #DD1F00 !important;
 }
 .message.state-active + .workflow{
-  /* margin-top: 10px !important; */
+  margin-top: 10px !important;
 }
 div.field-group {
   margin: 10px 10px 0px 10px;
@@ -193,6 +193,10 @@ input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
 }
 
 input:not([type='checkbox']):not([type='radio'])::placeholder {
+  text-decoration-color: transparent;
+  color: transparent;
+}
+input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder, .toggle .name.placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
