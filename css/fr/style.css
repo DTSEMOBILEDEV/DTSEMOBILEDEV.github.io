@@ -264,3 +264,7 @@ p.legal.ng-scope.ng-isolate-scope {
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
 }
+
+h3.title.title-secondary.ng-isolate-scope {
+  margin-bottom: 20px;
+}
