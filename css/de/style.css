@@ -201,6 +201,7 @@ input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder
   color: transparent;
 }
 
+
 input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   border: 1px solid #0046E4;
 }
@@ -237,6 +238,7 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 .checkbox .name::before {
   border: 2px solid #2480FF;
 }
+
 .checkbox .name {
   font-weight: 100;
 }
@@ -251,6 +253,8 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 
 .section.section-address.ng-scope.ng-isolate-scope {
   margin-left: -0px !important;
+  margin-bottom: -30px !important;
+  margin-top: -20px !important;
 }
 
 p.legal.ng-scope.ng-isolate-scope {
@@ -259,4 +263,8 @@ p.legal.ng-scope.ng-isolate-scope {
 
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
+}
+
+h3.title.title-secondary.ng-isolate-scope {
+  margin-bottom: 20px;
 }
