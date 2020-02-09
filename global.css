@@ -1,3 +1,9 @@
+.logo-primary {
+  position: relative;
+  height: 100%;
+  background-image: url(https://DTSEMOBILEDEV.github.io/css/en/images/EN.png);
+  background-size: 100% 100%;
+}
 #close {
   display: none;
 }
@@ -14,7 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 25px !important;
 }
 .section-submit {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .section-primary {
   margin: 20px;
@@ -25,8 +31,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 div.btn-group {
   padding-bottom: 10px;
 }
-
-
+.section-divider {
+  padding-bottom: 10px;
+}
+.content.finish-sign-in.ng-scope .btn-submit{
+  display : none ;
+}
 .workflow {
   border-radius: 20px;
   box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
@@ -44,11 +54,28 @@ div.btn-group {
 .workflow-update-address {
   padding: 10px;
 }
+.workflow-login-security-lockout {
+  padding: 10px;
+}
 div.block.block-update-text {
   margin: 10px;
 }
+div.field-group {
+  padding-bottom: -10px;
+}
+div.block.block-update-text-top {
+  padding: 10px;
+}
+div.block.block-gating-message {
+  padding: 10px;
+}
 button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
+}
+
+button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
+  font-weight: bolder;
+  color: #253B56;
 }
 
 #disneyid-wrapper {
@@ -62,12 +89,7 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   width: 100vw;
   height: 170px;
 }
-.logo-primary {
-  position: relative;
-  height: 100%;
-  background-image: url(https://DTSEMOBILEDEV.github.io/images/header-ID.png);
-  background-size: 100% 100%;
-}
+
 
 .title {
   color: #253B56;
@@ -86,15 +108,21 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
   margin: 10px;
 }
 .btn-primary {
-  z-index: 9999999;
+  /* z-index: 9999999; */
   border-radius: 30px 30px 30px 30px !important;
   background: linear-gradient(90deg, rgba(50,105,255,1) 0%, rgba(0,181,255,1) 100%) !important;
 }
 .btn-secondary {
-  z-index: 9999999;
+  /* z-index: 9999999; */
   border-radius: 30px 30px 30px 30px !important;
-  border-color: rgba(0,181,255,1) !important;
+  border-color: rgba(50,105,255,1) !important;
   border-width: 1.5px;
+}
+.btn.btn-secondary.ng-isolate-scope{
+  color: #253B56;
+}
+.btn-delete {
+  color: #DD1F00 !important;
 }
 .message.state-active + .workflow{
   margin-top: 10px !important;
@@ -122,7 +150,7 @@ div.field-group {
   background: #FFF2FF;
   border: 1px solid #DD1F00;
   color: #DD1F00;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px !important;
 }
 
 /* password box */
@@ -157,7 +185,9 @@ div.block.block-need-help-signing-in.block-help-link {
   text-align: center;
   margin-top: -15px;
 }
-
+select.ng-pristine.ng-valid.ng-touched {
+  padding-right : -20px !important;
+}
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
 input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
   border: 1px solid #8A9BAE;
@@ -205,3 +235,4 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 .checkbox .name::before {
   border: 2px solid #2480FF;
 }
+
