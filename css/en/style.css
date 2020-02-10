@@ -49,9 +49,6 @@ div.btn-group {
 .workflow-recover-email-sent {
   padding: 30px;
 }
-.mobile-resend-code {
-  text-align: center;
-}
 .workflow-legal-country {
   padding: 20px;
 }
@@ -278,10 +275,10 @@ p.ng-scope.ng-isolate-scope {
   font-weight: 100;
 }
 
-.field.field-address-postal-code.field-compact.ng-scope.ng-isolate-scope.badgeable {
-  width: 100%;
-}
-
 h3.title.title-secondary.ng-isolate-scope {
   margin-bottom: 20px;
+}
+
+.field.field-address-postal-code.field-compact.ng-scope.ng-isolate-scope.badgeable {
+  width: 100%;
 }
