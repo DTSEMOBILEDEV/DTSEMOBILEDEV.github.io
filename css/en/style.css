@@ -268,9 +268,9 @@ p.ng-scope.ng-isolate-scope {
   font-weight: 100;
 }
 
-.field.field-address-postal-code.field-compact.ng-scope.ng-isolate-scope.badgeable {
+/* .field.field-address-postal-code.field-compact.ng-scope.ng-isolate-scope.badgeable {
   width: 260px;
-}
+} */
 
 h3.title.title-secondary.ng-isolate-scope {
   margin-bottom: 20px;
