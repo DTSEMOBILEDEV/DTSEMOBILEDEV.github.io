@@ -267,11 +267,13 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 p.legal.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
   font-weight: 100;
+  width: 95%;
 }
 
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
   font-weight: 100;
+  width: 95%;
 }
 
 h3.title.title-secondary.ng-isolate-scope {
