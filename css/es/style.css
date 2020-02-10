@@ -243,6 +243,10 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
   font-weight: 100;
 }
 
+.show-password-action .checkbox .name {
+  font-size: 14px;
+}
+
 .checkbox {
   margin-left: 25px;
 }
