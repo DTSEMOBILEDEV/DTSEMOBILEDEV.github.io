@@ -96,7 +96,8 @@ time,
 mark,
 audio,
 video {
-  font-family: "Avenir-medium";
+  font-family: "Avenir-medium" !important;
+  color: red !important;
 }
 
 /* global div */
