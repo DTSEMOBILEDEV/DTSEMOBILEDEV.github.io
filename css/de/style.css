@@ -96,9 +96,8 @@ time,
 mark,
 audio,
 video {
-  font-family: "Avenir-medium";
+  font-family: "Avenir" !important;
 }
-
 /* global div */
 
 .section {

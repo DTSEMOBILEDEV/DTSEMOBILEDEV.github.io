@@ -7,6 +7,7 @@
 #close {
   display: none;
 }
+
 @font-face {
   font-family: Avenir-medium;
   src: url("../../font/Avenir-Medium.ttf");
@@ -95,7 +96,7 @@ time,
 mark,
 audio,
 video {
-  font-family: "Avenir", cursive !important;
+  font-family: "Avenir" !important;
 }
 
 /* global div */
