@@ -1,4 +1,3 @@
-
 .logo-primary {
   position: relative;
   height: 100%;
@@ -9,12 +8,96 @@
   display: none;
 }
 
-/* add font Avenir */
-html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  font-family: "Avenir";
-  src: url(https://DTSEMOBILEDEV.github.io/font/AvenirLTStd-Medium.otf) fornat("opentype");
+@font-face {
+  font-family: Avenir-medium;
+  src: url("../../font/Avenir-Medium.ttf");
 }
 
+/* add font Avenir */
+html,
+button,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-family: "Avenir" !important;
+}
 /* global div */
 
 .section {
@@ -27,7 +110,6 @@ html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p
   margin: 20px;
 }
 
-
 /* padding global button */
 div.btn-group {
   padding-bottom: 10px;
@@ -35,19 +117,19 @@ div.btn-group {
 .section-divider {
   padding-bottom: 10px;
 }
-.content.finish-sign-in.ng-scope .btn-submit{
-  display : none ;
+.content.finish-sign-in.ng-scope .btn-submit {
+  display: none;
 }
 .workflow {
   border-radius: 20px;
-  box-shadow: 0px 10px 35px -12px rgba(0,0,0,0.75);
-  background-color: #FFF;
+  box-shadow: 0px 10px 35px -12px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
 }
-.workflow-new{
+.workflow-new {
   margin: 10px;
 }
 .workflow-recover-email-sent {
-  padding: 10px;
+  padding: 30px;
 }
 .workflow-legal-country {
   padding: 20px;
@@ -59,7 +141,7 @@ div.btn-group {
   padding: 10px;
 }
 div.block.block-update-text {
-  margin: 10px;
+  margin: 30px;
 }
 div.field-group {
   padding-bottom: -10px;
@@ -76,7 +158,7 @@ button.btn.btn-primary.btn-submit.ng-isolate-scope.mobile {
 
 button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   font-weight: bolder;
-  color: #253B56;
+  color: #253b56;
 }
 
 #disneyid-wrapper {
@@ -91,9 +173,8 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
   height: 170px;
 }
 
-
 .title {
-  color: #253B56;
+  color: #253b56;
   text-transform: uppercase;
   font-size: 11.5px;
   letter-spacing: 1px;
@@ -111,46 +192,50 @@ button.btn.btn-secondary.btn-submit.ng-isolate-scope.mobile {
 .btn-primary {
   /* z-index: 9999999; */
   border-radius: 30px 30px 30px 30px !important;
-  background: linear-gradient(90deg, rgba(50,105,255,1) 0%, rgba(0,181,255,1) 100%) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(50, 105, 255, 1) 0%,
+    rgba(0, 181, 255, 1) 100%
+  ) !important;
 }
 .btn-secondary {
   /* z-index: 9999999; */
   border-radius: 30px 30px 30px 30px !important;
-  border-color: rgba(50,105,255,1) !important;
+  border-color: rgba(50, 105, 255, 1) !important;
   border-width: 1.5px;
 }
-.btn.btn-secondary.ng-isolate-scope{
-  color: #253B56;
+.btn.btn-secondary.ng-isolate-scope {
+  color: #253b56;
 }
 .btn-delete {
-  color: #DD1F00 !important;
+  color: #dd1f00 !important;
 }
-.message.state-active + .workflow{
+.message.state-active + .workflow {
   margin-top: 10px !important;
 }
 div.field-group {
   margin: 10px 10px 0px 10px;
 }
 /* checkbox */
-.checkbox{
+.checkbox {
   margin-left: 10px;
   margin-right: 10px;
 }
-.checkbox input[type="checkbox"]:checked+.name::before {
+.checkbox input[type="checkbox"]:checked + .name::before {
   -webkit-transition: background-color 70ms;
   transition: background-color 70ms;
-  background-color: #2480FF;
+  background-color: #2480ff;
   background-size: 1.25rem;
-  border-color: #2480FF;
+  border-color: #2480ff;
 }
 
 /* pop-in error */
 .banner.message-error .container {
   z-index: 9999;
   /* position: absolute; */
-  background: #FFF2FF;
-  border: 1px solid #DD1F00;
-  color: #DD1F00;
+  background: #fff2ff;
+  border: 1px solid #dd1f00;
+  color: #dd1f00;
   border-radius: 15px 15px 15px 15px !important;
 }
 
@@ -161,23 +246,23 @@ div.field-group {
 }
 .meter-bar .step:last-child {
   border-top-right-radius: 12px !important;
-  border-bottom-right-radius:  12px !important;
+  border-bottom-right-radius: 12px !important;
 }
 
 .name {
   display: block;
-  color: #253B56;
+  color: #253b56;
   font-weight: bolder;
 }
 
 a {
-  color: #1E87FF;
+  color: #1e87ff;
   font-size: 11.5px;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 a.ng-isolate-scope {
-  color: #1E87FF;
+  color: #1e87ff;
   font-size: 14px;
   font-weight: bolder;
 }
@@ -188,57 +273,74 @@ div.block.block-need-help-signing-in.block-help-link {
 }
 
 /* ============================ BEGIN OF FIELDS COLORS ==> NORMAL COLOR, FOCUS COLOR, ERROR COLORS ============================ */
-input:not([type="checkbox"]):not([type="radio"]), select, .toggle .name {
-  border: 1px solid #8A9BAE;
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+.toggle .name {
+  border: 1px solid #8a9bae;
 }
 
-input:not([type='checkbox']):not([type='radio'])::placeholder {
+input:not([type="checkbox"]):not([type="radio"])::placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
-input:not([type="checkbox"]):not([type="radio"]).placeholder, select.placeholder, .toggle .name.placeholder {
+input:not([type="checkbox"]):not([type="radio"]).placeholder,
+select.placeholder,
+.toggle .name.placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
 
-input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
-  border: 1px solid #0046E4;
+input:not([type="checkbox"]):not([type="radio"]):focus,
+select:focus {
+  border: 1px solid #0046e4;
 }
 
 /* ----------- BEGIN OF ERROR CSS ==> label Error, placeholders error, fields Error, message error ----------- */
 .field-error .name {
-  color: #DD1F00;
+  color: #dd1f00;
   display: block;
 }
 
 /* BEGIN OF placeholder => 1st for normal error fields, 2nd for country error */
-.field-error input:not([type='checkbox']):not([type='radio'])::placeholder {
+.field-error input:not([type="checkbox"]):not([type="radio"])::placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
 
-.field-error input:not([type='checkbox']):not([type='radio']).placeholder, .field-error select.placeholder {
+.field-error input:not([type="checkbox"]):not([type="radio"]).placeholder,
+.field-error select.placeholder {
   text-decoration-color: transparent;
   color: transparent;
 }
 /* END OF PLACEHOLDER */
 
-.field-error input:not([type="checkbox"]):not([type="radio"]), .field-error input:not([type="checkbox"]):not([type="radio"]):focus, .field-error select, .field-error select:focus {
+.field-error input:not([type="checkbox"]):not([type="radio"]),
+.field-error input:not([type="checkbox"]):not([type="radio"]):focus,
+.field-error select,
+.field-error select:focus {
   padding-right: 32px;
-  border: 1px solid #DD1F00;
+  border: 1px solid #dd1f00;
 }
-  
+
 .message-error {
-  color: #DD1F00;
+  color: #dd1f00;
 }
 /* ----------- END OF ERROR CSS ----------- */
 /* ============================ END OF FIELDS COLORS ============================ */
 
 .checkbox .name::before {
-  border: 2px solid #2480FF;
+  border: 2px solid #2480ff;
 }
+
 .checkbox .name {
   font-weight: 100;
+  font-size: 14px;
+  width: 95%;
+}
+
+.show-password-action .checkbox .name {
+  font-size: 14px;
+  margin: -14px 5px 0;
 }
 
 .checkbox {
@@ -251,12 +353,27 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus {
 
 .section.section-address.ng-scope.ng-isolate-scope {
   margin-left: -0px !important;
+  margin-bottom: -30px !important;
+  margin-top: -20px !important;
+  margin-right: -0px !important;
 }
 
 p.legal.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
+  font-weight: 100;
+  width: 95%;
 }
 
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
+  font-weight: 100;
+  width: 95%;
+}
+
+h3.title.title-secondary.ng-isolate-scope {
+  margin-bottom: 20px;
+}
+
+.field.field-address-postal-code.field-compact.ng-scope.ng-isolate-scope.badgeable {
+  width: 100%;
 }
