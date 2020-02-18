@@ -370,6 +370,10 @@ p.ng-scope.ng-isolate-scope {
   width: 95%;
 }
 
+p.ng-isolate-scope {
+  text-align: center;
+}
+
 h3.title.title-secondary.ng-isolate-scope {
   margin-bottom: 20px;
 }

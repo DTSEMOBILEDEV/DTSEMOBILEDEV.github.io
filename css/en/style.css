@@ -365,6 +365,10 @@ p.legal.ng-scope.ng-isolate-scope {
   width: 95%;
 }
 
+p.ng-isolate-scope {
+  text-align: center;
+}
+
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
   font-weight: 100;
