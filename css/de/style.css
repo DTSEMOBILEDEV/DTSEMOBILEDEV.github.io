@@ -336,6 +336,7 @@ select:focus {
   font-weight: 100;
   font-size: 14px;
   width: 95%;
+  text-align: left;
 }
 
 .show-password-action .checkbox .name {
@@ -362,12 +363,14 @@ p.legal.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
   font-weight: 100;
   width: 95%;
+  text-align: left;
 }
 
 p.ng-scope.ng-isolate-scope {
   margin-left: 10px !important;
   font-weight: 100;
   width: 95%;
+  text-align: left;
 }
 
 p.ng-isolate-scope {
