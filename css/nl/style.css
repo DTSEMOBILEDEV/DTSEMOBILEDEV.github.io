@@ -375,6 +375,15 @@ p.ng-isolate-scope {
   text-align: center;
 }
 
+p.ng-binding {
+  text-align: center;
+}
+
+p.mobile-resend-code.ng-binding.ng-scope {
+  text-align: center;
+  margin-left: 10px;
+}
+
 h3.title.title-secondary.ng-isolate-scope {
   margin-bottom: 20px;
 }
