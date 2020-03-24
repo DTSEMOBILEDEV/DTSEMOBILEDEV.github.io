@@ -1,7 +1,7 @@
 .logo-primary {
   position: relative;
   height: 100%;
-  background-image: url(./images/FR.png);
+  background-image: url(images/FR.png);
   background-size: 100% 100%;
 }
 #close {
