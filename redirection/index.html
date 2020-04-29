@@ -49,12 +49,12 @@
                 let urlGenerated = this.generateURL()
                 if(this.isIOS()){
                     let urlIos = this.getStoreURLiOS()
-                    d.getElementById("redirection")
-                    d[0].href = urlGenerated
+                    var rediElement= d.getElementById("redirection")
+                    rediElement[0].href = urlGenerated
                 }else if(this.isAndroid()){
                     let urlAndroid = this.getStoreURLAndroid()
-                    d.getElementById("redirection")
-                    d[0].href = urlGenerated
+                    var rediElement = d.getElementById("redirection")
+                    rediElement[0].href = urlGenerated
                 }
             }
         }
