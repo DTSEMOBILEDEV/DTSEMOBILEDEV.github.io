@@ -32,7 +32,7 @@
                 );
             };
             this.isMobile = function () {
-                return isAndroid() || isIOS();
+                return this.isAndroid() || this.isIOS();
             };
             this.init = function (){
                 if(this.isMobile()){
