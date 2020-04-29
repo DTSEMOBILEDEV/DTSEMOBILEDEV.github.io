@@ -53,6 +53,14 @@
                     let urlAndroid = this.getStoreURLAndroid()
                     console.log("urlAndroid",urlAndroid)
                     window.open(urlGenerated) 
+                    var iframe = document.createElement("iframe");
+                    iframe.onload = function () {
+                        iframe.parentNode.removeChild(iframe);
+                        window.location.href = urlGenerated;
+                    };
+                    iframe.src = urlGenerated;
+                    iframe.setAttribute("style", "display:none;");
+                    document.body.appendChild(iframe);
                 }
             }
         }
