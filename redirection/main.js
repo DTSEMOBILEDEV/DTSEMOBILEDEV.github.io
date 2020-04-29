@@ -210,6 +210,7 @@
         };
 
         iframe.src = uri;
+        alert(uri);
         iframe.setAttribute("style", "display:none;");
         document.body.appendChild(iframe);
 
