@@ -43,7 +43,7 @@
             }
             this.generateURL = function () {
                 //setTimeout(function () { window.location = this.url; }, 25);
-                return window.location = settings.prefix + "://redirection" + window.location.search ;
+                return settings.prefix + "://redirection" + window.location.search ;
             }
             this.redirection = function() {
                 let urlGenerated = this.generateURL()
