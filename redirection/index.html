@@ -6,8 +6,9 @@
     <title>Disney Redirection Mobile APP</title>
 </head>
 <body>
-    <a href="dlp://redirection">Go to DisneyLandParis APP</a>
+    <a href="#0" id="redirection">Click to redirect to DisneyLandParis APP</a>
     <script>
+        var d = document
         function deeplinking(settings){
             this.settings = settings
             this.url = ""
@@ -48,15 +49,12 @@
                 let urlGenerated = this.generateURL()
                 if(this.isIOS()){
                     let urlIos = this.getStoreURLiOS()
-                    console.log("urlIOS",urlIOS)
-                    window.location = urlGenerated
+                    d.getElementById("redirection")
+                    d[0].href = urlGenerated
                 }else if(this.isAndroid()){
                     let urlAndroid = this.getStoreURLAndroid()
-                    console.log("urlAndroid",urlAndroid)
-                    window.open(urlGenerated) 
-                    var iframe = document.createElement("a");
-                    iframe.href = urlGenerated
-                    iframe.innerHTML = "Go to DisneyLandParis APP"
+                    d.getElementById("redirection")
+                    d[0].href = urlGenerated
                 }
             }
         }
