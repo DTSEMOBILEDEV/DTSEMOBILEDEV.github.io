@@ -50,12 +50,11 @@
                 if(this.isIOS()){
                     let urlIos = this.getStoreURLiOS()
                     var rediElement= d.getElementById("redirection")
-                    rediElement[0].href = urlGenerated
+                    rediElement.href = urlGenerated
                 }else if(this.isAndroid()){
                     let urlAndroid = this.getStoreURLAndroid()
                     var rediElement = d.getElementById("redirection")
-                    console.log("rediElement",rediElement)
-                    rediElement[0].href = urlGenerated
+                    rediElement.href = urlGenerated
                 }
             }
         }
