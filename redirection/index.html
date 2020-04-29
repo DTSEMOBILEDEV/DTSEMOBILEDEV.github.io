@@ -3,22 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Disney Redirection Mobile APP</title>
 </head>
 <body>
-    <!--<script src="./main.js"></script>-->
     <script>
-        /*deeplink.setup({
-            iOS: {
-                appId: "284882215",
-                appName: "facebook",
-            },
-            android: {
-                appId: "com.facebook.katana"
+        function deeplinking(settings){
+            this.settings = settings
+            this.url = ""
+            this.getStoreURLiOS = function () {
+                var baseurl = "itms-apps://itunes.apple.com/app/";
+                var name = this.settings.iOS.appName;
+                var id = this.settings.iOS.appId;
+                return id && name ? baseurl + name + "/id" + id + "?mt=8" : null;
+            };
+            this.getStoreURLAndroid = function () {
+                var baseurl = "market://details?id=";
+                var id = this.settings.android.appId;
+                return id ? baseurl + id : null;
+            };
+            this.isAndroid = function () {
+                return navigator.userAgent.match("Android");
+            };
+            this.isIOS = function () {
+                return (
+                    navigator.userAgent.match("iPad") ||
+                    navigator.userAgent.match("iPhone") ||
+                    navigator.userAgent.match("iPod")
+                );
+            };
+            this.isMobile = function () {
+                return isAndroid() || isIOS();
+            };
+            this.init = function (){
+                if(this.isMobile()){
+                    if(this.isIOS()){
+                        this.url = this.getStoreURLiOS()
+                    }else if(this.isAndroid){
+                        this.url = this.getStoreURLAndroid()
+                    }
+                }
             }
-        });
-        deeplink.open("dlp://PACKAGE_RETRIEVE_MANUAL");*/
-        window.location = "dlp://redirection?type=PACKAGE_RETRIEVE_MANUAL"
+            this.open = function () {
+                setTimeout(function () { window.location = this.url; }, 25);
+                window.location = settings.prefix + "://redirection" + window.location.search ;
+            }
+        }
+        var deep = new deeplinking({
+            prefix : "dlp",
+            iOS : {
+                appName : "disneylandparis",
+                appId : "appid"                
+            },
+            android : {
+                appName : "disneylandparis",
+                appId : "appid"   
+            }
+        })
+        // init deep linking
+        deep.init()
+        // open url 
+        deep.open()
     </script>
 </body>
 </html>
