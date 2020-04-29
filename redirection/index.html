@@ -54,6 +54,7 @@
                 }else if(this.isAndroid()){
                     let urlAndroid = this.getStoreURLAndroid()
                     var rediElement = d.getElementById("redirection")
+                    console.log("rediElement",rediElement)
                     rediElement[0].href = urlGenerated
                 }
             }
@@ -70,7 +71,9 @@
             }
         })
         // init deep linking
-        window.onload =  deep.init()
+        window.onload = function(){
+            deep.init()
+        } 
     </script>
 </body>
 </html>
