@@ -202,6 +202,8 @@
             timeout = setTimeout(openFallback(Date.now()), settings.delay);
         }
 
+        alert(uri);
+
         var iframe = document.createElement("iframe");
         iframe.onload = function () {
             clearTimeout(timeout);
@@ -210,7 +212,7 @@
         };
 
         iframe.src = uri;
-        alert(uri);
+
         iframe.setAttribute("style", "display:none;");
         document.body.appendChild(iframe);
 
