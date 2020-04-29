@@ -36,16 +36,24 @@
             };
             this.init = function (){
                 if(this.isMobile()){
-                    if(this.isIOS()){
-                        this.url = this.getStoreURLiOS()
-                    }else if(this.isAndroid()){
-                        this.url = this.getStoreURLAndroid()
-                    }
+                    this.redirection()
                 }
             }
-            this.open = function () {
+            this.generateURL = function () {
                 //setTimeout(function () { window.location = this.url; }, 25);
-                window.location = settings.prefix + "://redirection" + window.location.search ;
+                return window.location = settings.prefix + "://redirection" + window.location.search ;
+            }
+            this.redirection = function() {
+                let urlGenerated = this.generateURL()
+                if(this.isIOS()){
+                    let urlIos = this.getStoreURLiOS()
+                    console.log("urlIOS",urlIOS)
+                    window.location = urlGenerated
+                }else if(this.isAndroid()){
+                    let urlAndroid = this.getStoreURLAndroid()
+                    console.log("urlAndroid",urlAndroid)
+                    window.open(urlGenerated) 
+                }
             }
         }
         var deep = new deeplinking({
@@ -61,8 +69,6 @@
         })
         // init deep linking
         deep.init()
-        // open url 
-        deep.open()
     </script>
 </body>
 </html>
