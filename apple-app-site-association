@@ -1,0 +1,19 @@
+{
+  “applinks”: {
+      “details”: [
+           {
+             “appIDs”: [ “396908589.fr.disneylandparis.iphone”],
+             “components”: [
+               {
+                  “/”: “/test_io_ul/*“,
+                  “exclude”: false,
+                  “comment”: “Matches any URL whose path starts with /test_io_ul/ ; if exclude == true, Matches any URL whose path starts with /test_io_ul/ and instructs the system not to open it as a universal link”
+               }
+             ]
+           }
+       ]
+   },
+   “webcredentials”: {
+      “apps”: [ “396908589.fr.disneylandparis.iphone” ]
+   }
+}
