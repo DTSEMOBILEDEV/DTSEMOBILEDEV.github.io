@@ -19,6 +19,9 @@
       el.click();
       console.log("element", el);
     }
-    setTimeout(simulateClick(), 1000);
+    setTimeout(function () {
+			alert("start simulate click")
+			simulateClick()
+		}, 1000);
   </script>
 </html>
