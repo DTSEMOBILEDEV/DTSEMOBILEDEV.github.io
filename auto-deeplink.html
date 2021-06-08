@@ -7,37 +7,19 @@
     <title>Auto Deeplink</title>
   </head>
   <body>
-		<a href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02" id="mytest1" target="_blank">test 1</a>
-
-	</body>
+    <a
+      href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
+      id="mytest1"
+      target="_blank"
+      >test 1</a
+    >
+  </body>
   <script type="text/javascript">
-    function simulateClick(control) {
-      if (document.all) {
-        control.click();
-      } else {
-        var evObj = document.createEvent("MouseEvents");
-        evObj.initMouseEvent(
-          "click",
-          true,
-          true,
-          window,
-          1,
-          12,
-          345,
-          7,
-          220,
-          false,
-          false,
-          true,
-          false,
-          0,
-          null
-        );
-        control.dispatchEvent(evObj);
-      }
+    function simulateClick() {
+      const el = document.getElementById("mytest1");
+      el.click();
+      console.log("element", el);
     }
-		simulateClick(document.getElementById('mytest1'))
-    // window.location.href =
-    //   "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+    setTimeout(simulateClick(), 1000);
   </script>
 </html>
