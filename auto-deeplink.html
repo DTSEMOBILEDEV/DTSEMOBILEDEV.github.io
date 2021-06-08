@@ -5,18 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
     <title>Auto Deeplink</title>
-    <link
-      rel="alternate"
-      href="android-app://com.example.android/example/gizmos"
-    />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   </head>
   <body>
-    <iframe src="dlp://PROFILE"></iframe>
+    <a
+      class="intent"
+      href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
+      data-scheme="dlp://PROFILE"
+      >MENU</a
+    >
   </body>
   <script type="text/javascript">
-    // window.onload = function () {
-    //   window.location = "dlp://PROFILE";
-    //   setTimeout("window.location = 'http://google.fr';", 1000);
-    // };
+    function uriSchemeWithHyperlinkFallback(uri, href) {
+      if (!window.open(uri)) {
+        window.location = href;
+      }
+    }
+    // `intent` is the class we're using to wire this up. Use whatever you like.
+    $("a.intent").on("click", function (event) {
+      uriSchemeWithHyperlinkFallback(
+        $(this).data("scheme"),
+        $(this).attr("href")
+      );
+      // we don't want the default browser behavior kicking in and screwing everything up.
+      event.preventDefault();
+    });
   </script>
 </html>
