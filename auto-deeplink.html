@@ -6,22 +6,9 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
     <title>Auto Deeplink</title>
   </head>
-  <body>
-    <a
-      href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
-      id="mytest1"
-      >test 1</a
-    >
-  </body>
+  <body></body>
   <script type="text/javascript">
-    function simulateClick() {
-      const el = document.getElementById("mytest1");
-      el.click();
-      console.log("element", el);
-    }
-    setTimeout(function () {
-			alert("start simulate click")
-			simulateClick()
-		}, 3000);
+    window.location =
+      "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
   </script>
 </html>
