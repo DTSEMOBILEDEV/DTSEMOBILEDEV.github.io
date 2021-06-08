@@ -5,15 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
     <title>Auto Deeplink</title>
+    <link
+      rel="alternate"
+      href="android-app://com.example.android/example/gizmos"
+    />
   </head>
-  <body></body>
+  <body>
+    <iframe src="dlp://PROFILE"> </iframe>
+  </body>
   <script type="text/javascript">
     window.onload = function () {
       window.location = "dlp://PROFILE";
-      setTimeout(
-        "window.location = 'http://google.fr';",
-        1000
-      );
+      setTimeout("window.location = 'http://google.fr';", 1000);
     };
   </script>
 </html>
