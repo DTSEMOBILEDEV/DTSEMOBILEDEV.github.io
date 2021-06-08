@@ -4,16 +4,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
-    <title>Auto Deeplink 4</title>
-    <link
-      rel="alternate"
-      href="android-app://fr.disneylandparis.android/https/disneylandparis.com/app"
-    />
+    <title>Auto Deeplink</title>
   </head>
-  <body>
-    <a href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
-      >Intent</a
-    >
-  </body>
-  <script type="text/javascript"></script>
+  <body></body>
+  <script type="text/javascript">
+    window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
+
+    setTimeout(function () {
+      window.location =
+        "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+    }, 1000);
+  </script>
 </html>
