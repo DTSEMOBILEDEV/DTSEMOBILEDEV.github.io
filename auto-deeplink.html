@@ -7,9 +7,37 @@
     <title>Auto Deeplink</title>
   </head>
   <body>
+		<a href="https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02" id="mytest1">test 1</a>
 
 	</body>
-	<script type="text/javascript">
-		window.location.href = "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
-	</script>
+  <script type="text/javascript">
+    function simulateClick(control) {
+      if (document.all) {
+        control.click();
+      } else {
+        var evObj = document.createEvent("MouseEvents");
+        evObj.initMouseEvent(
+          "click",
+          true,
+          true,
+          window,
+          1,
+          12,
+          345,
+          7,
+          220,
+          false,
+          false,
+          true,
+          false,
+          0,
+          null
+        );
+        control.dispatchEvent(evObj);
+      }
+    }
+		simulateClick(document.getElementById('mytest1'))
+    // window.location.href =
+    //   "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+  </script>
 </html>
