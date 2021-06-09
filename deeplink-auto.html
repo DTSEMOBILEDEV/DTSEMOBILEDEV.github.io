@@ -12,17 +12,21 @@
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1;
 
-    if (isAndroid) {
-      if (window.open("dlp://DIGITAL_MENU_HOME?id=/P1NR02", "_self"))
-        window.location =
-          "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-    } else {
-      window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
+    alert(ua);
 
-      setTimeout(function () {
-        window.location =
-          "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-      }, 1000);
+    if (isAndroid) {
+      console.log("is android");
+      // if (window.open("dlp://DIGITAL_MENU_HOME?id=/P1NR02", "_self"))
+      //   window.location =
+      //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+    } else {
+      console.log("is ios");
+      // window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
+
+      // setTimeout(function () {
+      //   window.location =
+      //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+      // }, 1000);
     }
   </script>
 </html>
