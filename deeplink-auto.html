@@ -11,16 +11,15 @@
   <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1;
-
-    alert(ua);
+    var isIOS = ua.includes("mac") && "ontouchend" in document;
 
     if (isAndroid) {
       console.log("is android");
       // if (window.open("dlp://DIGITAL_MENU_HOME?id=/P1NR02", "_self"))
       //   window.location =
       //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-    } else {
-      console.log("is ios");
+    } else if (isIOS) {
+      console.log("is iOS");
       // window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
 
       // setTimeout(function () {
