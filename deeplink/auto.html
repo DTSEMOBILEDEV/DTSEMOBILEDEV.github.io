@@ -14,26 +14,28 @@
     var isIOS = ua.includes("mac") && "ontouchend" in document;
     var isChrome = ua.indexOf("chrome") > -1 && ua.indexOf("google") > -1;
 
-    alert(ua);
+    window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
 
-    if (isChrome) {
-      alert("Is Chrome");
-      window.open(
-        "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02",
-        "_self"
-      );
-    } else if (!isChrome && isAndroid) {
-      alert("Is Android but not Chrome");
-      window.open(
-        "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02",
-        "_self"
-      );
-    } else if (!isChrome && isIOS) {
-      alert("Is iOS but not Chrome");
-      window.location =
-        "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-    } else {
-      alert("Is not Chrome or Android or iOS");
-    }
+    // alert(ua);
+
+    // if (isChrome) {
+    //   alert("Is Chrome");
+    //   window.open(
+    //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02",
+    //     "_self"
+    //   );
+    // } else if (!isChrome && isAndroid) {
+    //   alert("Is Android but not Chrome");
+    //   window.open(
+    //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02",
+    //     "_self"
+    //   );
+    // } else if (!isChrome && isIOS) {
+    //   alert("Is iOS but not Chrome");
+    //   window.location =
+    //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+    // } else {
+    //   alert("Is not Chrome or Android or iOS");
+    // }
   </script>
 </html>
