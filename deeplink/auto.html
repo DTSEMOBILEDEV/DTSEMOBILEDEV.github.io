@@ -12,7 +12,7 @@
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1;
     var isIOS = ua.includes("mac") && "ontouchend" in document;
-    var isChrome = ua.indexOf("chrome") > -1 && ua.indexOf("google") > -1;
+    var isChrome = ua.indexOf("chrome") > -1;
 
     alert(ua);
 
@@ -21,11 +21,12 @@
         alert("is Chrome and Android");
         window.location =
           "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-      }
-      if (isIOS) {
+      } else if (isIOS) {
         alert("is Chrome and iOS");
         window.location =
           "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+      } else {
+        alert("is just Chrome");
       }
     } else {
       alert("is Whatever");
