@@ -12,19 +12,21 @@
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1;
     var isIOS = ua.includes("mac") && "ontouchend" in document;
-    var isChrome = ua.indexOf("chrome") > -1;
+    var isChrome = ua.includes("chrome") > -1;
 
     alert(ua);
 
     if (isChrome) {
       if (isAndroid) {
         alert("is Chrome and Android");
-        window.location =
-          "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+        window.open(
+          "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
+        );
       } else if (isIOS) {
         alert("is Chrome and iOS");
-        window.location =
-          "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+        window.open(
+          "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02"
+        );
       } else {
         alert("is just Chrome");
       }
