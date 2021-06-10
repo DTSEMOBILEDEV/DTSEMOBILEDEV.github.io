@@ -14,16 +14,22 @@
     var isIOS = ua.includes("mac") && "ontouchend" in document;
 
     if (isAndroid) {
-      if (!window.open("dlp://DIGITAL_MENU_HOME?id=/P1NR02", "_self"))
+      if (
+        !window.open(
+          "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02",
+          "_self"
+        )
+      )
         window.location =
           "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
     } else if (isIOS) {
-      window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
+      window.location =
+        "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
 
-      setTimeout(function () {
-        window.location =
-          "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
-      }, 500);
+      // setTimeout(function () {
+      //   window.location =
+      //     "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
+      // }, 500);
     }
   </script>
 </html>
