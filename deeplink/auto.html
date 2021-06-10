@@ -18,14 +18,17 @@
 
     if (isChrome) {
       if (isAndroid) {
+        alert("is Chrome and Android");
         window.location =
           "https://www.disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
       }
       if (isIOS) {
+        alert("is Chrome and iOS");
         window.location =
           "https://disneylandparis.com/app/DIGITAL_MENU_HOME?id=/P1NR02";
       }
     } else {
+      alert("is Whatever");
       window.location = "dlp://DIGITAL_MENU_HOME?id=/P1NR02";
 
       setTimeout(function () {
