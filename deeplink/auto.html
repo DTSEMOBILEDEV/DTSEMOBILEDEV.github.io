@@ -12,12 +12,12 @@
   </body>
   <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
-    var isAndroid = ua.indexOf("android") > -1;
+    var isAndroid = ua.includes("android");
     var isIOS = ua.includes("mac") && "ontouchend" in document;
-    var isChrome = ua.includes("chrome") > -1;
+    var isChromeBase = ua.includes("chrome");
+    var isSamsungBrowser = ua.includes("samsungbrowser");
+    var isChrome = isChromeBase && !isSamsungBrowser;
     var link = document.querySelector("#deeplink");
-
-    alert(ua);
 
     if (isChrome) {
       if (isAndroid) {
