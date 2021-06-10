@@ -14,6 +14,8 @@
     var isIOS = ua.includes("mac") && "ontouchend" in document;
     var isChrome = ua.indexOf("chrome") > -1 && ua.indexOf("google") > -1;
 
+    alert(ua);
+
     if (isChrome) {
       alert("Is Chrome");
       window.open(
