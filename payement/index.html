@@ -8,6 +8,12 @@
   </head>
   <body></body>
   <script type="text/javascript">
-    window.location = "dlp://PAYEMET_CONFIRMATION";
+    let params = new URL(document.location).searchParams;
+    let screen = params.get("screen").trim();
+    if (screen) {
+      window.location = `dlp://${screen}`;
+    } else {
+      window.location = `dlp://`;
+    }
   </script>
 </html>
