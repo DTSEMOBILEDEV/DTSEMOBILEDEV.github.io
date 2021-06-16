@@ -8,6 +8,7 @@
   </head>
   <body></body>
   <script type="text/javascript">
+    var ua = navigator.userAgent.toLowerCase();
     let params = new URL(document.location).searchParams;
     var isIOS = ua.includes("mac") && "ontouchend" in document;
     var isAndroid = ua.includes("android");
