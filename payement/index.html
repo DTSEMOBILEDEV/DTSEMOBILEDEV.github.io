@@ -9,11 +9,19 @@
   <body></body>
   <script type="text/javascript">
     let params = new URL(document.location).searchParams;
+    var isIOS = ua.includes("mac") && "ontouchend" in document;
+    var isAndroid = ua.includes("android");
     let screen = params.get("screen");
+    let scheme = "dlp://";
+
+    if (isIOS) {
+      scheme = "https://disneylandparis.com/app/";
+    }
+
     if (screen) {
-      window.location = `dlp://${screen.trim()}`;
+      window.location = `${scheme}${screen.trim()}`;
     } else {
-      window.location = `dlp://`;
+      window.location = `${scheme}`;
     }
   </script>
 </html>
