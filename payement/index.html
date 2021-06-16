@@ -6,7 +6,9 @@
     <meta name="referrer" content="no-referrer" />
     <title>Payement redirection</title>
   </head>
-  <body></body>
+  <body>
+    <a id="deeplink" href="dlp://DIGITAL_MENU_HOME?id=/P1NR02"> Deep Link </a>
+  </body>
   <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
     let params = new URL(document.location).searchParams;
@@ -14,10 +16,6 @@
     var isAndroid = ua.includes("android");
     let screen = params.get("screen");
     let scheme = "dlp://";
-
-    if (isIOS) {
-      scheme = "https://disneylandparis.com/app/";
-    }
 
     if (screen) {
       window.location = `${scheme}${screen.trim()}`;
