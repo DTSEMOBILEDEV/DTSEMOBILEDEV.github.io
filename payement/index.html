@@ -7,7 +7,7 @@
     <title>Payement redirection</title>
   </head>
   <body>
-    <a id="deeplink" href="dlp://"> Deep Link </a>
+    Loading...
   </body>
   <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
@@ -18,9 +18,9 @@
     let scheme = "dlp://";
 
     if (screen) {
-      //window.location = `${scheme}${screen.trim()}`;
+      window.location = `${scheme}${screen.trim()}`;
     } else {
-      //window.location.href = `${scheme}`;
+      window.location = `${scheme}`;
     }
   </script>
 </html>
